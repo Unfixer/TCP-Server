@@ -1,0 +1,20 @@
+This is how to make your own TCP Server in C
+Hope this helps!
+Socket files code will be provided soon
+Read the comments carefully
+
+USAGE:
+1. Compile the server.c 
+gcc server.c -o server
+2. ./server
+3. netstat -an | grep LISTEN
+to see the servers it is listening to, check for your PORT (here 8181)
+4. Try out 
+env - telnet localhost 8181   // always make sure to use env because telnet has a tendency to send that extra data.
+env just clears up the environment variable
+5. Send some data, maybe pretend??
+HEAD /HTTP/1.0  ....like this
+
+All set. 
+
+
